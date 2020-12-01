@@ -41,6 +41,25 @@ const siteContent = {
 const logo = document.querySelector('#logo-img');
 logo.setAttribute('src', siteContent['nav']['img-src']);
 
+// // Nav
+const anchor1 = document.querySelector('a');
+anchor1.textContent = siteContent['nav']['nav-item-1'];
+
+const anchor2 = document.querySelector('a:nth-of-type(2)');
+anchor2.textContent = siteContent['nav']['nav-item-2'];
+
+const anchor3 = document.querySelector('a:nth-of-type(3)');
+anchor3.textContent = siteContent['nav']['nav-item-3'];
+
+const anchor4 = document.querySelector('a:nth-of-type(4)');
+anchor4.textContent = siteContent['nav']['nav-item-4'];
+
+const anchor5 = document.querySelector('a:nth-of-type(5)');
+anchor5.textContent = siteContent['nav']['nav-item-5'];
+
+const anchor6 = document.querySelector('a:nth-of-type(6)');
+anchor6.textContent = siteContent['nav']['nav-item-6'];
+
 // Middle Image
 const middleImage = document.querySelector('#middle-img');
 middleImage.setAttribute('src', siteContent['main-content']['middle-img-src']);
